@@ -1,9 +1,6 @@
 {
   "intelephense.environment.documentRoot": "${workspaceFolder}/../../..",
-  "intelephense.environment.includePaths": [
-    "${workspaceFolder}/../../../wp-includes",
-    "${workspaceFolder}/../../../wp-admin/includes"
-  ],
+  "intelephense.environment.includePaths": ["${workspaceFolder}/../../.."],
   "intelephense.stubs": [
     "apache",
     "bcmath",
@@ -42,6 +39,10 @@
     "pcntl",
     "pcre",
     "PDO",
+    "pdo_ibm",
+    "pdo_mysql",
+    "pdo_pgsql",
+    "pdo_sqlite",
     "pgsql",
     "Phar",
     "posix",
@@ -65,8 +66,6 @@
     "sysvshm",
     "tidy",
     "tokenizer",
-    "uri",
-    "wordpress",
     "xml",
     "xmlreader",
     "xmlrpc",
@@ -74,6 +73,7 @@
     "xsl",
     "Zend OPcache",
     "zip",
-    "zlib"
+    "zlib",
+    "wordpress"
   ]
 }
