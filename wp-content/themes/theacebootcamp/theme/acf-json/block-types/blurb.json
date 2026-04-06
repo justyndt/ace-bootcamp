@@ -1,0 +1,34 @@
+{
+    "name": "blurb",
+    "title": "Blurb",
+    "active": true,
+    "description": "",
+    "category": "grads-are-back",
+    "icon": "text",
+    "keywords": [],
+    "post_types": [],
+    "mode": "edit",
+    "align": "full",
+    "align_text": "",
+    "align_content": "top",
+    "render_template": "template-parts\/blocks\/blurb.php",
+    "render_callback": "",
+    "enqueue_style": "",
+    "enqueue_script": "",
+    "enqueue_assets": "",
+    "supports": {
+        "anchor": true,
+        "align": true,
+        "align_text": false,
+        "align_content": "matrix",
+        "full_height": true,
+        "mode": true,
+        "multiple": true,
+        "example": [],
+        "jsx": true
+    },
+    "acfe_autosync": [
+        "json"
+    ],
+    "modified": 1742288643
+}

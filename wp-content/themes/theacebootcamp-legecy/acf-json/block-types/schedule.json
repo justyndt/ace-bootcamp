@@ -1,0 +1,34 @@
+{
+    "name": "schedule",
+    "title": "Schedule",
+    "active": true,
+    "description": "",
+    "category": "grads-are-back",
+    "icon": "schedule",
+    "keywords": [],
+    "post_types": [],
+    "mode": "edit",
+    "align": "full",
+    "align_text": "",
+    "align_content": "top",
+    "render_template": "template-parts\/blocks\/schedule.php",
+    "render_callback": "",
+    "enqueue_style": "",
+    "enqueue_script": "",
+    "enqueue_assets": "",
+    "supports": {
+        "anchor": false,
+        "align": true,
+        "align_text": false,
+        "align_content": false,
+        "full_height": false,
+        "mode": true,
+        "multiple": true,
+        "example": [],
+        "jsx": false
+    },
+    "acfe_autosync": [
+        "json"
+    ],
+    "modified": 1741206840
+}

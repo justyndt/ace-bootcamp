@@ -1,0 +1,117 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ */
+
+/**
+ * This uses the background and foreground colors declared in the `theme.json`
+ * file and is applied both to the front end and in the block editor.
+ */
+body {
+	@apply bg-background text-foreground font-sans;
+}
+
+.day-details {
+	@apply px-5 pb-5 lg:pb-10 lg:px-10 pt-5;
+	p,
+	ul {
+		@apply mb-6 text-base last:mb-0;
+	}
+
+	strong {
+		@apply font-bold text-2xl font-condensed uppercase;
+	}
+
+	em {
+		@apply not-italic text-xl font-condensed uppercase text-off-white;
+	}
+}
+
+#countdown {
+	@apply flex flex-1 text-center gap-3 items-center justify-center;
+	.item {
+		@apply flex flex-col bg-gradient-to-b bg-foreground border p-4 rounded-md justify-center text-white flex-1 shrink-0;
+	}
+
+	span {
+		@apply text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl font-bold tracking-tighter;
+	}
+
+	em {
+		@apply text-base 2xl:text-xl uppercase not-italic font-condensed;
+	}
+}
+
+/* .underline-hover::before {
+	@apply w-0 absolute bottom-[-1px] left-0 content-[''] bg-off-white h-[1px] duration-300 ease-in-out transition-all;
+}
+
+.underline-hover:hover::before {
+	@apply w-full;
+} */
+
+header#masthead {
+	.custom-logo {
+		@apply size-32 lg:size-38;
+	}
+
+	#primary-menu {
+		@apply flex items-center justify-between gap-6;
+
+		li {
+			a {
+				@apply text-base text-white relative;
+			}
+
+			&.btn-green {
+				a {
+					@apply h-14 px-6 rounded-md bg-gradient-to-l border-white/50 flex items-center justify-center from-sjgc-green/75 to-green-800/75 border ease-in-out duration-300 transition-all;
+					background-position: left center;
+					background-size: 150% 150%;
+				}
+
+				a:hover {
+					background-position: right center;
+				}
+			}
+		}
+		li:not(.btn-green) {
+			a {
+				/* @apply underline-hover; */
+			}
+		}
+	}
+}
+
+#nav-drawer {
+	ul {
+		@apply relative mt-8 flex items-start justify-start flex-col gap-6;
+
+		> li {
+			a {
+				@apply text-xl lg:text-2xl text-white relative;
+			}
+
+			&.btn-green {
+				a {
+					@apply h-14 px-6 rounded-md bg-gradient-to-l border-white/50 flex items-center justify-center from-sjgc-green/75 to-green-800/75 border ease-in-out duration-300 transition-all;
+				}
+			}
+		}
+	}
+
+	#drawer-toggle:checked ~ & {
+		@apply translate-x-0;
+	}
+}
+
+.content-image {
+	h3 {
+		@apply text-4xl lg:text-5xl font-bold font-condensed uppercase;
+	}
+}
+
+.profile-content {
+	> p {
+		@apply !mt-2;
+	}
+}

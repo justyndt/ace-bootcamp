@@ -1,0 +1,352 @@
+{
+    "key": "group_66f6d89be9833",
+    "title": "Events",
+    "fields": [
+        {
+            "key": "field_6719063f6fce3",
+            "label": "Subtitle",
+            "name": "subtitle",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66f6daaa4c76c",
+            "label": "Location",
+            "name": "location",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66f6e03643b92",
+            "label": "Event Date",
+            "name": "event_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "l F j, Y",
+            "first_day": 1,
+            "placeholder": "",
+            "min_date": "",
+            "max_date": "",
+            "no_weekends": 0,
+            "allow_in_bindings": 0
+        },
+        {
+            "key": "field_66f6d89c4c768",
+            "label": "Event Start Time",
+            "name": "event_start_time",
+            "aria-label": "",
+            "type": "time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:i a",
+            "return_format": "g:i a",
+            "placeholder": "",
+            "min_time": "",
+            "max_time": "",
+            "min_hour": "",
+            "max_hour": "",
+            "min_min": "",
+            "max_min": "",
+            "min_sec": "",
+            "max_sec": "",
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_66f6db9c93cad",
+            "label": "Event End Time",
+            "name": "event_end_time",
+            "aria-label": "",
+            "type": "time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:i a",
+            "return_format": "g:i a",
+            "placeholder": "",
+            "min_time": "",
+            "max_time": "",
+            "min_hour": "",
+            "max_hour": "",
+            "min_min": "",
+            "max_min": "",
+            "min_sec": "",
+            "max_sec": "",
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_672222f439516",
+            "label": "Moderator Title",
+            "name": "moderator_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66f6d8f84c769",
+            "label": "Moderator",
+            "name": "moderator",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "profile"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "return_format": "id",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": true,
+                "acfe_bidirectional_related": [
+                    "field_66f6d9b74c76a"
+                ]
+            },
+            "min": "",
+            "max": "",
+            "allow_in_bindings": 1,
+            "elements": [
+                "featured_image"
+            ],
+            "bidirectional": 0,
+            "bidirectional_target": []
+        },
+        {
+            "key": "field_6722230a39517",
+            "label": "Panelists Tilte",
+            "name": "panelists_tilte",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66f6d9b74c76a",
+            "label": "Panelist(s)",
+            "name": "panelists",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "profile"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "return_format": "id",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "1",
+                "acfe_bidirectional_related": [
+                    "field_66f6d8f84c769"
+                ]
+            },
+            "min": "",
+            "max": "",
+            "allow_in_bindings": 1,
+            "elements": [
+                "featured_image"
+            ],
+            "bidirectional": 0,
+            "bidirectional_target": []
+        },
+        {
+            "key": "field_67c9a24addea0",
+            "label": "Description",
+            "name": "description",
+            "aria-label": "",
+            "type": "acfe_block_editor",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min_height": 175,
+            "max_height": "",
+            "autoresize": 1,
+            "topbar": 1,
+            "topbar_tools": [
+                "inserter",
+                "selector",
+                "undo",
+                "toc",
+                "navigation",
+                "inspector",
+                "editor"
+            ],
+            "fixed_toolbar": 1,
+            "allow_code_mode": 1,
+            "allow_lock": 1,
+            "allow_upload": 1,
+            "allow_library": 1,
+            "allowed_blocks": {
+                "0": {
+                    "block": "core\/paragraph"
+                },
+                "4": {
+                    "block": "core\/heading"
+                },
+                "2": {
+                    "block": "core\/gallery"
+                },
+                "3": {
+                    "block": "core\/quote"
+                },
+                "5": {
+                    "block": "core\/list"
+                },
+                "6": {
+                    "block": "core\/list-item"
+                },
+                "67c9bb0f10162": {
+                    "block": "core\/spacer"
+                },
+                "67c9bb1610163": {
+                    "block": "core\/group"
+                }
+            },
+            "allow_in_bindings": 0,
+            "height": 175
+        },
+        {
+            "key": "field_671ba7f23f2e9",
+            "label": "Virtual Link",
+            "name": "virtual_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1741273881
+}
