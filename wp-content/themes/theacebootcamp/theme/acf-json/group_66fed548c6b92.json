@@ -45,6 +45,29 @@
             "append": ""
         },
         {
+            "key": "field_671c8f2a_column_count",
+            "label": "Column count",
+            "name": "column_count",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Number of columns at the largest breakpoint (1–5). Responsive wrapping applies on smaller screens.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "min": 1,
+            "max": 5,
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "step": 1,
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_66fed571ec70a",
             "label": "Logo Grid",
             "name": "logo_grid",
@@ -98,5 +121,5 @@
     "acfe_display_title": "",
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1741206913
+    "modified": 1775683200
 }
