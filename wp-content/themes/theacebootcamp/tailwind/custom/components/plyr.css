@@ -1,0 +1,11 @@
+:root {
+	--plyr-color-main: #ed6500;
+	--plyr-audio-controls-background: #282828;
+	--plyr-audio-control-color: #181818;
+	--plyr-audio-control-color-hover: #282828;
+	--plyr-control-radius: 10%;
+}
+
+.plyr {
+	@apply overflow-hidden rounded-lg !important;
+}
