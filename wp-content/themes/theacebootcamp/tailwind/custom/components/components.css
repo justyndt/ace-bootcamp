@@ -72,5 +72,5 @@
 }
 
 h2.wp-block-heading {
-	@apply !text-4xl !md:text-6xl !font-bold !font-condensed !uppercase !mb-6;
+	@apply !text-4xl md:!text-6xl !font-bold !font-condensed !uppercase !mb-6;
 }
