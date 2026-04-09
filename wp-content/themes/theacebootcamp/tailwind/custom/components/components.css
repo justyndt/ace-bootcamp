@@ -66,3 +66,7 @@
 .plyr {
 	@apply !overflow-hidden !rounded-lg;
 }
+
+.wp-block-image img {
+	@apply !rounded-lg !w-full;
+}
