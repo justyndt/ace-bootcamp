@@ -70,3 +70,7 @@
 .wp-block-image img {
 	@apply !rounded-lg !w-full;
 }
+
+h2.wp-block-heading {
+	@apply !text-2xl !font-bold !font-condensed !uppercase !mb-6;
+}
