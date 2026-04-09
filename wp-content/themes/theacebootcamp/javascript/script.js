@@ -12,6 +12,8 @@
 import 'iconify-icon';
 import navDrawer from './navDrawer.js';
 import countdown from './countdown.js';
+import plyr from './plyr.js';
 
 countdown.start();
 navDrawer.init();
+plyr.init();

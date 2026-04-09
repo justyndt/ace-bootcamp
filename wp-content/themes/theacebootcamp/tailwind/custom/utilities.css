@@ -6,3 +6,5 @@
  *
  * https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities
  */
+
+@import "plyr/dist/plyr.css";
